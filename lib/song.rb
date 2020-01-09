@@ -14,7 +14,7 @@ end
 
 def artist_name 
   # @artist.name if @artist 
-  self.artist ? @artist.name : false 
+  self.artist ? @artist.name : nil 
 end 
   
 end 
